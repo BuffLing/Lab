@@ -1,0 +1,96 @@
+.my-btn { 
+    margin-right: 5px;        
+    margin-top: 5px;            
+    width: 60px;             
+    height: 50px;              
+    /*border-radius: 50%; круглые кнопки */
+    border: none;                
+    background: #515151;        
+    color: rgb(210, 28, 28);              
+    font-size: 1.5rem;           
+    /*font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;             
+    user-select: none;       
+  } 
+  
+  .my-btn:hover {
+    background: rgb(98, 11, 11); 
+  }
+  
+  .my-btn:active {
+    filter: brightness(130%);
+  }
+  
+
+  .my-btn.primary { 
+    background: #3894d5; 
+  }
+  
+
+  .my-btn.secondary { 
+    background: #a6a6a6;
+  }
+  
+
+  .my-btn.execute { 
+    width: 130px;         
+    /*border-radius: 34px;  круглая кнопка равно =*/
+  }
+  
+  .result { 
+    width: 330px;
+    height: 60px;
+    margin-bottom: 15px;         
+    padding-right: 10px;
+    padding-top: 20px;         
+    background: rgb(45, 31, 109); 
+    text-align: right;           
+    color: #beb7b7;              
+    font-size: 1.5rem;
+    font-weight: 900;
+   /* font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Times New Roman', Times, serif; /*тут шрифт*/
+    border-radius: 30%;
+  }
+  .format {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    }
+    .cvet{
+    color:rgb(255, 255, 255)
+    }   
+  .pravka{
+    text-align: center;
+    margin-left: 103px;
+  }
+  .aclick{
+text-align: center;
+margin-top: 10px;
+color:aquamarine
+  }
+  .pickhe
+  {
+    width: 100px;
+    height: 100px;
+  }
+.my-btn2
+{
+  margin-right: 5px;        
+    margin-top: 5px;            
+    width: 100px;             
+    height: 50px;              
+    /*border-radius: 50%; круглые кнопки */
+    border: none;                
+    background: #515151;        
+    color: rgb(28, 155, 210);              
+    font-size: 1.5rem;           
+    /*font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;             
+    user-select: none; 
+}
